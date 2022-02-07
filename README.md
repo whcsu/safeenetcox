@@ -1,4 +1,4 @@
 # Safe screening elastic net for large scale survival analysis
-# Submitted to Biostatistics
+# Submitted 
 
 The elastic net penalty which includes both the $L_1$ and $L_2$ penalties is a widely applied in survival analysis for simultaneous estimation and feature selection. Although many efforts have been devoted to its efficient implementation, its application to high dimensional or large sample sized survival data still poses significant computational challenges. In this paper, we present fast and effective safe screening rules for Cox proportional hazard  model with (adaptive) elastic net penalties to identify the zero coefficients in the solution vector, which may lead to a substantial reduction in the number of features before the final optimization procedure. Theoretically, we prove that the algorithm with our screening rules are able to guarantee identical results with the original algorithms.  Numerically, we demonstrate that our screening rule improves the efficiency of elastic net Cox proportional hazard  model with a significant gain on a variety of simulated and real scenarios  without any loss of accuracy. 
